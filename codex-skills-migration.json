@@ -16,99 +16,99 @@
   "user_skills": [
     {
       "name": "arxiv-digest",
-      "source_url": "https://github.com/zgl610329-wq/codex-skills/tree/main/skills/arxiv-digest",
-      "repository": "zgl610329-wq/codex-skills",
+      "source_url": "https://github.com/heisetiantang/codex-skills-RE/tree/main/skills/arxiv-digest",
+      "repository": "heisetiantang/codex-skills-RE",
       "repository_path": "skills/arxiv-digest",
       "migration": "install_from_github"
     },
     {
       "name": "code-review",
-      "source_url": "https://github.com/zgl610329-wq/codex-skills/tree/main/skills/code-review",
-      "repository": "zgl610329-wq/codex-skills",
+      "source_url": "https://github.com/heisetiantang/codex-skills-RE/tree/main/skills/code-review",
+      "repository": "heisetiantang/codex-skills-RE",
       "repository_path": "skills/code-review",
       "migration": "install_from_github"
     },
     {
       "name": "codeql",
-      "source_url": "https://github.com/zgl610329-wq/codex-skills/tree/main/skills/codeql",
-      "repository": "zgl610329-wq/codex-skills",
+      "source_url": "https://github.com/heisetiantang/codex-skills-RE/tree/main/skills/codeql",
+      "repository": "heisetiantang/codex-skills-RE",
       "repository_path": "skills/codeql",
       "migration": "install_from_github"
     },
     {
       "name": "context7-mcp",
-      "source_url": "https://github.com/zgl610329-wq/codex-skills/tree/main/skills/context7-mcp",
-      "repository": "zgl610329-wq/codex-skills",
+      "source_url": "https://github.com/heisetiantang/codex-skills-RE/tree/main/skills/context7-mcp",
+      "repository": "heisetiantang/codex-skills-RE",
       "repository_path": "skills/context7-mcp",
       "migration": "install_from_github"
     },
     {
       "name": "diagnosing-bugs",
-      "source_url": "https://github.com/zgl610329-wq/codex-skills/tree/main/skills/diagnosing-bugs",
-      "repository": "zgl610329-wq/codex-skills",
+      "source_url": "https://github.com/heisetiantang/codex-skills-RE/tree/main/skills/diagnosing-bugs",
+      "repository": "heisetiantang/codex-skills-RE",
       "repository_path": "skills/diagnosing-bugs",
       "migration": "install_from_github"
     },
     {
       "name": "firecrawl-build",
-      "source_url": "https://github.com/zgl610329-wq/codex-skills/tree/main/skills/firecrawl-build",
-      "repository": "zgl610329-wq/codex-skills",
+      "source_url": "https://github.com/heisetiantang/codex-skills-RE/tree/main/skills/firecrawl-build",
+      "repository": "heisetiantang/codex-skills-RE",
       "repository_path": "skills/firecrawl-build",
       "migration": "install_from_github"
     },
     {
       "name": "firecrawl-build-scrape",
-      "source_url": "https://github.com/zgl610329-wq/codex-skills/tree/main/skills/firecrawl-build-scrape",
-      "repository": "zgl610329-wq/codex-skills",
+      "source_url": "https://github.com/heisetiantang/codex-skills-RE/tree/main/skills/firecrawl-build-scrape",
+      "repository": "heisetiantang/codex-skills-RE",
       "repository_path": "skills/firecrawl-build-scrape",
       "migration": "install_from_github"
     },
     {
       "name": "firecrawl-build-search",
-      "source_url": "https://github.com/zgl610329-wq/codex-skills/tree/main/skills/firecrawl-build-search",
-      "repository": "zgl610329-wq/codex-skills",
+      "source_url": "https://github.com/heisetiantang/codex-skills-RE/tree/main/skills/firecrawl-build-search",
+      "repository": "heisetiantang/codex-skills-RE",
       "repository_path": "skills/firecrawl-build-search",
       "migration": "install_from_github"
     },
     {
       "name": "implement",
-      "source_url": "https://github.com/zgl610329-wq/codex-skills/tree/main/skills/implement",
-      "repository": "zgl610329-wq/codex-skills",
+      "source_url": "https://github.com/heisetiantang/codex-skills-RE/tree/main/skills/implement",
+      "repository": "heisetiantang/codex-skills-RE",
       "repository_path": "skills/implement",
       "migration": "install_from_github"
     },
     {
       "name": "learn-anything-fast",
-      "source_url": "https://github.com/zgl610329-wq/codex-skills/tree/main/skills/learn-anything-fast",
-      "repository": "zgl610329-wq/codex-skills",
+      "source_url": "https://github.com/heisetiantang/codex-skills-RE/tree/main/skills/learn-anything-fast",
+      "repository": "heisetiantang/codex-skills-RE",
       "repository_path": "skills/learn-anything-fast",
       "migration": "install_from_github"
     },
     {
       "name": "semgrep",
-      "source_url": "https://github.com/zgl610329-wq/codex-skills/tree/main/skills/semgrep",
-      "repository": "zgl610329-wq/codex-skills",
+      "source_url": "https://github.com/heisetiantang/codex-skills-RE/tree/main/skills/semgrep",
+      "repository": "heisetiantang/codex-skills-RE",
       "repository_path": "skills/semgrep",
       "migration": "install_from_github"
     },
     {
       "name": "solidworks-automation",
-      "source_url": "https://github.com/zgl610329-wq/codex-skills/tree/main/skills/solidworks-automation",
-      "repository": "zgl610329-wq/codex-skills",
+      "source_url": "https://github.com/heisetiantang/codex-skills-RE/tree/main/skills/solidworks-automation",
+      "repository": "heisetiantang/codex-skills-RE",
       "repository_path": "skills/solidworks-automation",
       "migration": "install_from_github"
     },
     {
       "name": "spatial-agi-research",
-      "source_url": "https://github.com/zgl610329-wq/codex-skills/tree/main/skills/spatial-agi-research",
-      "repository": "zgl610329-wq/codex-skills",
+      "source_url": "https://github.com/heisetiantang/codex-skills-RE/tree/main/skills/spatial-agi-research",
+      "repository": "heisetiantang/codex-skills-RE",
       "repository_path": "skills/spatial-agi-research",
       "migration": "install_from_github"
     },
     {
       "name": "tdd",
-      "source_url": "https://github.com/zgl610329-wq/codex-skills/tree/main/skills/tdd",
-      "repository": "zgl610329-wq/codex-skills",
+      "source_url": "https://github.com/heisetiantang/codex-skills-RE/tree/main/skills/tdd",
+      "repository": "heisetiantang/codex-skills-RE",
       "repository_path": "skills/tdd",
       "migration": "install_from_github"
     }

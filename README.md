@@ -22,7 +22,7 @@ powershell.exe -NoProfile -ExecutionPolicy Bypass -File ".\install.ps1"
 
 ```powershell
 $installer = "$env:USERPROFILE\.codex\skills\.system\skill-installer\scripts\install-skill-from-github.py"
-python $installer --repo zgl610329-wq/codex-skills --path skills/context7-mcp
+python $installer --repo heisetiantang/codex-skills-RE --path skills/context7-mcp
 ```
 
 ## 技能清单

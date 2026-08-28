@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "repository": "zgl610329-wq/codex-skills",
+  "repository": "heisetiantang/codex-skills-RE",
   "skills_root": "skills",
   "skills": [
     { "name": "arxiv-digest", "path": "skills/arxiv-digest", "origin": "odakin/arxiv-digest" },
