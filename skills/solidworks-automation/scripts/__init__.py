@@ -1,0 +1,1 @@
+﻿# SolidWorks Automation Scripts Package

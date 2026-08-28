@@ -1,0 +1,198 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-28",
+  "purpose": "Portable Codex skill and plugin migration manifest",
+  "migration_policy": {
+    "exclude_system_skills": true,
+    "exclude_using_superpowers": true,
+    "copy_plugin_cache": false,
+    "reinstall_enabled_plugins": true
+  },
+  "source": {
+    "codex_home": "C:/Users/18810/.codex",
+    "user_skills_dir": "C:/Users/18810/.codex/skills",
+    "config_file": "C:/Users/18810/.codex/config.toml"
+  },
+  "user_skills": [
+    {
+      "name": "arxiv-digest",
+      "source_url": "https://github.com/zgl610329-wq/codex-skills/tree/main/skills/arxiv-digest",
+      "repository": "zgl610329-wq/codex-skills",
+      "repository_path": "skills/arxiv-digest",
+      "migration": "install_from_github"
+    },
+    {
+      "name": "code-review",
+      "source_url": "https://github.com/zgl610329-wq/codex-skills/tree/main/skills/code-review",
+      "repository": "zgl610329-wq/codex-skills",
+      "repository_path": "skills/code-review",
+      "migration": "install_from_github"
+    },
+    {
+      "name": "codeql",
+      "source_url": "https://github.com/zgl610329-wq/codex-skills/tree/main/skills/codeql",
+      "repository": "zgl610329-wq/codex-skills",
+      "repository_path": "skills/codeql",
+      "migration": "install_from_github"
+    },
+    {
+      "name": "context7-mcp",
+      "source_url": "https://github.com/zgl610329-wq/codex-skills/tree/main/skills/context7-mcp",
+      "repository": "zgl610329-wq/codex-skills",
+      "repository_path": "skills/context7-mcp",
+      "migration": "install_from_github"
+    },
+    {
+      "name": "diagnosing-bugs",
+      "source_url": "https://github.com/zgl610329-wq/codex-skills/tree/main/skills/diagnosing-bugs",
+      "repository": "zgl610329-wq/codex-skills",
+      "repository_path": "skills/diagnosing-bugs",
+      "migration": "install_from_github"
+    },
+    {
+      "name": "firecrawl-build",
+      "source_url": "https://github.com/zgl610329-wq/codex-skills/tree/main/skills/firecrawl-build",
+      "repository": "zgl610329-wq/codex-skills",
+      "repository_path": "skills/firecrawl-build",
+      "migration": "install_from_github"
+    },
+    {
+      "name": "firecrawl-build-scrape",
+      "source_url": "https://github.com/zgl610329-wq/codex-skills/tree/main/skills/firecrawl-build-scrape",
+      "repository": "zgl610329-wq/codex-skills",
+      "repository_path": "skills/firecrawl-build-scrape",
+      "migration": "install_from_github"
+    },
+    {
+      "name": "firecrawl-build-search",
+      "source_url": "https://github.com/zgl610329-wq/codex-skills/tree/main/skills/firecrawl-build-search",
+      "repository": "zgl610329-wq/codex-skills",
+      "repository_path": "skills/firecrawl-build-search",
+      "migration": "install_from_github"
+    },
+    {
+      "name": "implement",
+      "source_url": "https://github.com/zgl610329-wq/codex-skills/tree/main/skills/implement",
+      "repository": "zgl610329-wq/codex-skills",
+      "repository_path": "skills/implement",
+      "migration": "install_from_github"
+    },
+    {
+      "name": "learn-anything-fast",
+      "source_url": "https://github.com/zgl610329-wq/codex-skills/tree/main/skills/learn-anything-fast",
+      "repository": "zgl610329-wq/codex-skills",
+      "repository_path": "skills/learn-anything-fast",
+      "migration": "install_from_github"
+    },
+    {
+      "name": "semgrep",
+      "source_url": "https://github.com/zgl610329-wq/codex-skills/tree/main/skills/semgrep",
+      "repository": "zgl610329-wq/codex-skills",
+      "repository_path": "skills/semgrep",
+      "migration": "install_from_github"
+    },
+    {
+      "name": "solidworks-automation",
+      "source_url": "https://github.com/zgl610329-wq/codex-skills/tree/main/skills/solidworks-automation",
+      "repository": "zgl610329-wq/codex-skills",
+      "repository_path": "skills/solidworks-automation",
+      "migration": "install_from_github"
+    },
+    {
+      "name": "spatial-agi-research",
+      "source_url": "https://github.com/zgl610329-wq/codex-skills/tree/main/skills/spatial-agi-research",
+      "repository": "zgl610329-wq/codex-skills",
+      "repository_path": "skills/spatial-agi-research",
+      "migration": "install_from_github"
+    },
+    {
+      "name": "tdd",
+      "source_url": "https://github.com/zgl610329-wq/codex-skills/tree/main/skills/tdd",
+      "repository": "zgl610329-wq/codex-skills",
+      "repository_path": "skills/tdd",
+      "migration": "install_from_github"
+    }
+  ],
+  "project_skills": [],
+  "enabled_plugins": [
+    {
+      "name": "browser",
+      "marketplace": "openai-bundled",
+      "version": "26.818.61809"
+    },
+    {
+      "name": "chrome",
+      "marketplace": "openai-bundled",
+      "version": "26.818.61809"
+    },
+    {
+      "name": "computer-use",
+      "marketplace": "openai-bundled",
+      "version": "26.818.61809"
+    },
+    {
+      "name": "visualize",
+      "marketplace": "openai-bundled",
+      "version": "1.0.22"
+    },
+    {
+      "name": "codex-app-tools",
+      "marketplace": "openai-bundled",
+      "version": "0.1.0"
+    },
+    {
+      "name": "latex",
+      "marketplace": "openai-bundled",
+      "version": "0.2.2"
+    },
+    {
+      "name": "documents",
+      "marketplace": "openai-primary-runtime",
+      "version": "26.826.12353"
+    },
+    {
+      "name": "pdf",
+      "marketplace": "openai-primary-runtime",
+      "version": "26.826.12353"
+    },
+    {
+      "name": "presentations",
+      "marketplace": "openai-primary-runtime",
+      "version": "26.826.12353"
+    },
+    {
+      "name": "spreadsheets",
+      "marketplace": "openai-primary-runtime",
+      "version": "26.826.12353"
+    },
+    {
+      "name": "template-creator",
+      "marketplace": "openai-primary-runtime",
+      "version": "26.826.12353"
+    }
+  ],
+  "excluded": {
+    "system_skills": [
+      "imagegen",
+      "openai-docs",
+      "plugin-creator",
+      "review-agent",
+      "skill-creator",
+      "skill-installer"
+    ],
+    "user_skills": [
+      "using-superpowers"
+    ],
+    "runtime_data": [
+      "auth.json",
+      "*.sqlite",
+      "plugins/cache",
+      ".tmp"
+    ]
+  },
+  "target_instructions": {
+    "user_skills_destination": "$CODEX_HOME/skills",
+    "plugin_installation": "Enable or reinstall each item in enabled_plugins from its marketplace; do not copy plugin cache directories.",
+    "verification": "After migration, confirm each user skill directory contains SKILL.md and each enabled plugin is enabled in config.toml."
+  }
+}

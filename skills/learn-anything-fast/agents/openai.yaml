@@ -1,0 +1,4 @@
+interface:
+  display_name: "十倍速学习教练"
+  short_description: "把任何主题变成分级路线、主动测验、速查表与费曼输出闭环"
+  default_prompt: "使用 $learn-anything-fast 帮我为一个新主题设计并执行可验证的学习闭环。"

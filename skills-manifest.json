@@ -1,0 +1,21 @@
+{
+  "schema_version": 2,
+  "repository": "zgl610329-wq/codex-skills",
+  "skills_root": "skills",
+  "skills": [
+    { "name": "arxiv-digest", "path": "skills/arxiv-digest", "origin": "odakin/arxiv-digest" },
+    { "name": "code-review", "path": "skills/code-review", "origin": "mattpocock/skills" },
+    { "name": "codeql", "path": "skills/codeql", "origin": "trailofbits/skills" },
+    { "name": "context7-mcp", "path": "skills/context7-mcp", "origin": "upstash/context7" },
+    { "name": "diagnosing-bugs", "path": "skills/diagnosing-bugs", "origin": "mattpocock/skills" },
+    { "name": "firecrawl-build", "path": "skills/firecrawl-build", "origin": "firecrawl/firecrawl" },
+    { "name": "firecrawl-build-scrape", "path": "skills/firecrawl-build-scrape", "origin": "firecrawl/firecrawl" },
+    { "name": "firecrawl-build-search", "path": "skills/firecrawl-build-search", "origin": "firecrawl/firecrawl" },
+    { "name": "implement", "path": "skills/implement", "origin": "mattpocock/skills" },
+    { "name": "learn-anything-fast", "path": "skills/learn-anything-fast", "origin": "zgl610329-wq/learn-anything-fast" },
+    { "name": "semgrep", "path": "skills/semgrep", "origin": "trailofbits/skills" },
+    { "name": "solidworks-automation", "path": "skills/solidworks-automation", "origin": "local" },
+    { "name": "spatial-agi-research", "path": "skills/spatial-agi-research", "origin": "zhuhu00/Paper-digest" },
+    { "name": "tdd", "path": "skills/tdd", "origin": "mattpocock/skills" }
+  ]
+}
