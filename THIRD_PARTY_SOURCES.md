@@ -2,6 +2,8 @@
 
 The following skills are redistributed from upstream projects. Check the linked upstream repository before publishing changes or upgrading a skill.
 
+The complete `mattpocock/skills` source snapshot is also kept under `sources/mattpocock-skills/` for audit and update reference; its `.git` metadata is intentionally excluded.
+
 | Skills | Upstream | License note |
 | --- | --- | --- |
 | `implement`, `tdd`, `code-review`, `diagnosing-bugs` | https://github.com/mattpocock/skills | Preserve the upstream repository license and notices. |

@@ -29,4 +29,6 @@ python $installer --repo zgl610329-wq/codex-skills --path skills/context7-mcp
 
 See `skills-manifest.json` for the canonical inventory and `THIRD_PARTY_SOURCES.md` for upstream sources and license notes.
 
+The optional `sources/` directory contains upstream source snapshots for audit and future updates. It is not used by the installer.
+
 Do not commit tokens, credentials, `.env` files, Codex runtime caches, or local database files.
