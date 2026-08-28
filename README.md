@@ -1,35 +1,35 @@
-# Codex Skills
+# Codex 技能集合
 
-Personal Codex skill collection managed as one portable repository.
+这是一个便于迁移的 Codex 个人技能集合仓库。
 
-## Repository layout
+## 仓库结构
 
-Each direct child under `skills/` is an independently installable skill and contains a `SKILL.md` file. System-provided Codex skills and plugin caches are intentionally excluded.
+`skills/` 下的每个直接子目录都是一个可独立安装的技能，并包含 `SKILL.md` 文件。系统自带技能和插件缓存已排除。
 
-## Install on another Windows workstation
+## 在另一台 Windows 工作站安装
 
-Clone this repository, open PowerShell in the repository root, and run:
+克隆本仓库，在仓库根目录打开 PowerShell，然后运行：
 
 ```powershell
 powershell.exe -NoProfile -ExecutionPolicy Bypass -File ".\install.ps1"
 ```
 
-The installer copies missing skills to `$env:USERPROFILE\.codex\skills`. It does not overwrite existing skills. Restart Codex after installation.
+安装脚本会把缺少的技能复制到 `$env:USERPROFILE\.codex\skills`，不会覆盖已有技能。安装完成后请重启 Codex。
 
-## Install one skill from GitHub
+## 从 GitHub 安装单个技能
 
-When Python is available, the Codex skill installer can install an individual directory:
+如果系统已安装 Python，也可以使用 Codex 技能安装器安装单个目录：
 
 ```powershell
 $installer = "$env:USERPROFILE\.codex\skills\.system\skill-installer\scripts\install-skill-from-github.py"
 python $installer --repo zgl610329-wq/codex-skills --path skills/context7-mcp
 ```
 
-## Inventory
+## 技能清单
 
-See `skills-manifest.json` for the canonical inventory and `THIRD_PARTY_SOURCES.md` for upstream sources and license notes.
+`skills-manifest.json` 是标准技能清单；`THIRD_PARTY_SOURCES.md` 记录了上游来源和许可证说明。
 
-The optional `sources/` directory contains upstream source snapshots for audit and future updates. It is not used by the installer.
+可选的 `sources/` 目录保存上游源码快照，用于审计和后续更新，不会被安装脚本使用。
 
 ## 功能与调用方式
 
@@ -54,4 +54,4 @@ The optional `sources/` directory contains upstream source snapshots for audit a
 
 常用组合：普通开发使用 `implement` + `tdd` + `code-review`；排查问题使用 `diagnosing-bugs` + `tdd`；安全检查使用 `semgrep` 后接 `codeql`；涉及第三方库时先使用 `context7-mcp`。
 
-Do not commit tokens, credentials, `.env` files, Codex runtime caches, or local database files.
+请不要提交 Token、凭据、`.env` 文件、Codex 运行时缓存或本地数据库文件。
