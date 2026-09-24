@@ -1,4 +1,4 @@
-﻿---
+---
 name: solidworks-automation
 description: "SolidWorks CAD 自动化技能，可通过 Python COM 接口与 Codex 协作控制 Windows 上运行的 SolidWorks，用于零件建模、装配体、工程图、钣金、焊件、仿真、文件导出等。"
 ---

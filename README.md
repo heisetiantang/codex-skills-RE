@@ -29,11 +29,13 @@ python $installer --repo heisetiantang/codex-skills-RE --path skills/context7-mc
 
 `skills-manifest.json` 是标准技能清单；`THIRD_PARTY_SOURCES.md` 记录了上游来源和许可证说明。
 
+**不知道某个技能是干什么的、什么时候该用？先看 [`技能速查.md`](技能速查.md)** —— 按场景（学习调研 / 写代码 / 机械工程 / 网页数据 / 安全检查）划分，并标注了每个技能的依赖前提和自动触发条件。
+
 可选的 `sources/` 目录保存上游源码快照，用于审计和后续更新，不会被安装脚本使用。
 
 ## 功能与调用方式
 
-在 Codex 中可直接使用 `/技能名` 显式调用；也可以在任务中描述相同意图，让 Codex 自动匹配。
+在 Codex 中可直接使用 `/技能名` 显式调用；也可以在任务中描述相同意图，让 Codex 自动匹配。少数技能（如 `implement`）声明了 `disable-model-invocation`，只能显式调用。下表是全量明细，按场景组织的一页版见 [`技能速查.md`](技能速查.md)。
 
 | Skill | 用途 | 调用示例 |
 | --- | --- | --- |
