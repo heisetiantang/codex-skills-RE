@@ -39,7 +39,6 @@ python $installer --repo heisetiantang/codex-skills-RE --path skills/context7-mc
 
 | Skill | 用途 | 调用示例 |
 | --- | --- | --- |
-| `arxiv-digest` | 获取并整理 arXiv 日刊论文摘要 | `/arxiv-digest` 或“运行今天的 arXiv 论文摘要” |
 | `code-review` | 从规范和需求两个角度审查分支或 PR | `/code-review` 或“审查当前分支相对 main 的改动” |
 | `codeql` | 对多语言项目做跨文件安全与数据流分析 | `/codeql` 或“对当前仓库运行 CodeQL 安全扫描” |
 | `context7-mcp` | 查询最新库、框架和 API 文档 | `/context7-mcp` 或“查当前版本的 Next.js middleware 文档” |
@@ -51,7 +50,6 @@ python $installer --repo heisetiantang/codex-skills-RE --path skills/context7-mc
 | `learn-anything-fast` | 制定学习路线、练习、测验和知识总结 | `/learn-anything-fast` 或“帮我制定一周的 Rust 学习计划” |
 | `semgrep` | 快速扫描常见安全问题和代码模式 | `/semgrep` 或“用 Semgrep 扫描这个项目的安全问题” |
 | `solidworks-automation` | 通过 Python COM 自动化 SolidWorks 建模和导出 | `/solidworks-automation` 或“在 SolidWorks 中创建一个带孔圆盘” |
-| `spatial-agi-research` | 执行 Spatial AGI 论文检索、精读和每日思考流程 | `/spatial-agi-research` 或“运行今天的 Spatial AGI 研究流程” |
 | `tdd` | 以红绿重构方式先写测试再实现功能 | `/tdd` 或“用 TDD 实现购物车折扣规则” |
 
 常用组合：普通开发使用 `implement` + `tdd` + `code-review`；排查问题使用 `diagnosing-bugs` + `tdd`；安全检查使用 `semgrep` 后接 `codeql`；涉及第三方库时先使用 `context7-mcp`。

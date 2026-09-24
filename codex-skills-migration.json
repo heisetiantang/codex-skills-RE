@@ -15,13 +15,6 @@
   },
   "user_skills": [
     {
-      "name": "arxiv-digest",
-      "source_url": "https://github.com/heisetiantang/codex-skills-RE/tree/main/skills/arxiv-digest",
-      "repository": "heisetiantang/codex-skills-RE",
-      "repository_path": "skills/arxiv-digest",
-      "migration": "install_from_github"
-    },
-    {
       "name": "code-review",
       "source_url": "https://github.com/heisetiantang/codex-skills-RE/tree/main/skills/code-review",
       "repository": "heisetiantang/codex-skills-RE",
@@ -96,13 +89,6 @@
       "source_url": "https://github.com/heisetiantang/codex-skills-RE/tree/main/skills/solidworks-automation",
       "repository": "heisetiantang/codex-skills-RE",
       "repository_path": "skills/solidworks-automation",
-      "migration": "install_from_github"
-    },
-    {
-      "name": "spatial-agi-research",
-      "source_url": "https://github.com/heisetiantang/codex-skills-RE/tree/main/skills/spatial-agi-research",
-      "repository": "heisetiantang/codex-skills-RE",
-      "repository_path": "skills/spatial-agi-research",
       "migration": "install_from_github"
     },
     {

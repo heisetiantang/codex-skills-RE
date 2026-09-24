@@ -3,7 +3,6 @@
   "repository": "heisetiantang/codex-skills-RE",
   "skills_root": "skills",
   "skills": [
-    { "name": "arxiv-digest", "path": "skills/arxiv-digest", "origin": "odakin/arxiv-digest" },
     { "name": "code-review", "path": "skills/code-review", "origin": "mattpocock/skills" },
     { "name": "codeql", "path": "skills/codeql", "origin": "trailofbits/skills" },
     { "name": "context7-mcp", "path": "skills/context7-mcp", "origin": "upstash/context7" },
@@ -15,7 +14,6 @@
     { "name": "learn-anything-fast", "path": "skills/learn-anything-fast", "origin": "zgl610329-wq/learn-anything-fast" },
     { "name": "semgrep", "path": "skills/semgrep", "origin": "trailofbits/skills" },
     { "name": "solidworks-automation", "path": "skills/solidworks-automation", "origin": "local" },
-    { "name": "spatial-agi-research", "path": "skills/spatial-agi-research", "origin": "zhuhu00/Paper-digest" },
     { "name": "tdd", "path": "skills/tdd", "origin": "mattpocock/skills" }
   ]
 }
