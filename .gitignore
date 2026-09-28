@@ -16,4 +16,4 @@ __pycache__/
 #   goutoujunshi    —— 有 SKILL.md，但未列入安装清单
 #   jev-chat-jarvis —— 不是技能（Android 源码，无 SKILL.md）
 # 两者都带独立 .git，等组合优化定案后再决定入库方式
-skills/情感部分/
+skills/06-情感部分/

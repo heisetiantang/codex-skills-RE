@@ -4,29 +4,29 @@
   "skills_root": "skills",
   "layout": "按功能分组：skills/<分类目录>/<技能名>",
   "taxonomy": [
-    { "dir": "01-code-production",        "label": "代码生产",       "io": "需求 / spec → 可运行代码" },
-    { "dir": "02-code-inspection",        "label": "代码检验",       "io": "已有代码 → 问题清单" },
-    { "dir": "03-info-retrieval",         "label": "外部信息获取",   "io": "库名 / 网址 → 文档、数据、集成代码" },
-    { "dir": "04-engineering-automation", "label": "工程软件自动化", "io": "参数 → 零件 / 装配 / 图纸文件" },
-    { "dir": "辅助学习",                  "label": "辅助学习",       "io": "目标 / 困惑 → 结构化方案" },
-    { "dir": "情感部分",                   "label": "情感",           "io": "情感 / 关系类，不参与安装，待组合优化" }
+    { "dir": "01-代码生产",        "label": "代码生产",       "io": "需求 / spec → 可运行代码" },
+    { "dir": "02-代码检验",        "label": "代码检验",       "io": "已有代码 → 问题清单" },
+    { "dir": "03-外部信息获取",         "label": "外部信息获取",   "io": "库名 / 网址 → 文档、数据、集成代码" },
+    { "dir": "04-工程软件自动化", "label": "工程软件自动化", "io": "参数 → 零件 / 装配 / 图纸文件" },
+    { "dir": "05-辅助学习",                  "label": "辅助学习",       "io": "目标 / 困惑 → 结构化方案" },
+    { "dir": "06-情感部分",                   "label": "情感",           "io": "情感 / 关系类，不参与安装，待组合优化" }
   ],
   "skills": [
-    { "name": "implement", "path": "skills/01-code-production/implement", "category": "01-code-production", "origin": "mattpocock/skills" },
-    { "name": "tdd", "path": "skills/01-code-production/tdd", "category": "01-code-production", "origin": "mattpocock/skills" },
-    { "name": "code-review", "path": "skills/02-code-inspection/code-review", "category": "02-code-inspection", "origin": "mattpocock/skills" },
-    { "name": "codeql", "path": "skills/02-code-inspection/codeql", "category": "02-code-inspection", "origin": "trailofbits/skills" },
-    { "name": "diagnosing-bugs", "path": "skills/02-code-inspection/diagnosing-bugs", "category": "02-code-inspection", "origin": "mattpocock/skills" },
-    { "name": "semgrep", "path": "skills/02-code-inspection/semgrep", "category": "02-code-inspection", "origin": "trailofbits/skills" },
-    { "name": "context7-mcp", "path": "skills/03-info-retrieval/context7-mcp", "category": "03-info-retrieval", "origin": "upstash/context7" },
-    { "name": "firecrawl-build", "path": "skills/03-info-retrieval/firecrawl-build", "category": "03-info-retrieval", "origin": "firecrawl/firecrawl" },
-    { "name": "firecrawl-build-scrape", "path": "skills/03-info-retrieval/firecrawl-build-scrape", "category": "03-info-retrieval", "origin": "firecrawl/firecrawl" },
-    { "name": "firecrawl-build-search", "path": "skills/03-info-retrieval/firecrawl-build-search", "category": "03-info-retrieval", "origin": "firecrawl/firecrawl" },
-    { "name": "solidworks-automation", "path": "skills/04-engineering-automation/solidworks-automation", "category": "04-engineering-automation", "origin": "local" },
-    { "name": "learn-anything-fast", "path": "skills/辅助学习/learn-anything-fast", "category": "辅助学习", "origin": "zgl610329-wq/learn-anything-fast" }
+    { "name": "implement", "path": "skills/01-代码生产/implement", "category": "01-代码生产", "origin": "mattpocock/skills" },
+    { "name": "tdd", "path": "skills/01-代码生产/tdd", "category": "01-代码生产", "origin": "mattpocock/skills" },
+    { "name": "code-review", "path": "skills/02-代码检验/code-review", "category": "02-代码检验", "origin": "mattpocock/skills" },
+    { "name": "codeql", "path": "skills/02-代码检验/codeql", "category": "02-代码检验", "origin": "trailofbits/skills" },
+    { "name": "diagnosing-bugs", "path": "skills/02-代码检验/diagnosing-bugs", "category": "02-代码检验", "origin": "mattpocock/skills" },
+    { "name": "semgrep", "path": "skills/02-代码检验/semgrep", "category": "02-代码检验", "origin": "trailofbits/skills" },
+    { "name": "context7-mcp", "path": "skills/03-外部信息获取/context7-mcp", "category": "03-外部信息获取", "origin": "upstash/context7" },
+    { "name": "firecrawl-build", "path": "skills/03-外部信息获取/firecrawl-build", "category": "03-外部信息获取", "origin": "firecrawl/firecrawl" },
+    { "name": "firecrawl-build-scrape", "path": "skills/03-外部信息获取/firecrawl-build-scrape", "category": "03-外部信息获取", "origin": "firecrawl/firecrawl" },
+    { "name": "firecrawl-build-search", "path": "skills/03-外部信息获取/firecrawl-build-search", "category": "03-外部信息获取", "origin": "firecrawl/firecrawl" },
+    { "name": "solidworks-automation", "path": "skills/04-工程软件自动化/solidworks-automation", "category": "04-工程软件自动化", "origin": "local" },
+    { "name": "learn-anything-fast", "path": "skills/05-辅助学习/learn-anything-fast", "category": "05-辅助学习", "origin": "zgl610329-wq/learn-anything-fast" }
   ],
   "unlisted": [
-    { "name": "goutoujunshi", "path": "skills/情感部分/goutoujunshi", "reason": "有 SKILL.md，归入情感部分；待组合优化后再决定是否进安装清单" },
-    { "name": "jev-chat-jarvis", "path": "skills/情感部分/jev-chat-jarvis", "reason": "不是技能：Android 应用源码，无 SKILL.md" }
+    { "name": "goutoujunshi", "path": "skills/06-情感部分/goutoujunshi", "reason": "有 SKILL.md，归入情感部分；待组合优化后再决定是否进安装清单" },
+    { "name": "jev-chat-jarvis", "path": "skills/06-情感部分/jev-chat-jarvis", "reason": "不是技能：Android 应用源码，无 SKILL.md" }
   ]
 }

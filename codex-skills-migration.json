@@ -16,86 +16,86 @@
   "user_skills": [
     {
       "name": "code-review",
-      "source_url": "https://github.com/heisetiantang/codex-skills-RE/tree/main/skills/02-code-inspection/code-review",
+      "source_url": "https://github.com/heisetiantang/codex-skills-RE/tree/main/skills/02-代码检验/code-review",
       "repository": "heisetiantang/codex-skills-RE",
-      "repository_path": "skills/02-code-inspection/code-review",
+      "repository_path": "skills/02-代码检验/code-review",
       "migration": "install_from_github"
     },
     {
       "name": "codeql",
-      "source_url": "https://github.com/heisetiantang/codex-skills-RE/tree/main/skills/02-code-inspection/codeql",
+      "source_url": "https://github.com/heisetiantang/codex-skills-RE/tree/main/skills/02-代码检验/codeql",
       "repository": "heisetiantang/codex-skills-RE",
-      "repository_path": "skills/02-code-inspection/codeql",
+      "repository_path": "skills/02-代码检验/codeql",
       "migration": "install_from_github"
     },
     {
       "name": "context7-mcp",
-      "source_url": "https://github.com/heisetiantang/codex-skills-RE/tree/main/skills/03-info-retrieval/context7-mcp",
+      "source_url": "https://github.com/heisetiantang/codex-skills-RE/tree/main/skills/03-外部信息获取/context7-mcp",
       "repository": "heisetiantang/codex-skills-RE",
-      "repository_path": "skills/03-info-retrieval/context7-mcp",
+      "repository_path": "skills/03-外部信息获取/context7-mcp",
       "migration": "install_from_github"
     },
     {
       "name": "diagnosing-bugs",
-      "source_url": "https://github.com/heisetiantang/codex-skills-RE/tree/main/skills/02-code-inspection/diagnosing-bugs",
+      "source_url": "https://github.com/heisetiantang/codex-skills-RE/tree/main/skills/02-代码检验/diagnosing-bugs",
       "repository": "heisetiantang/codex-skills-RE",
-      "repository_path": "skills/02-code-inspection/diagnosing-bugs",
+      "repository_path": "skills/02-代码检验/diagnosing-bugs",
       "migration": "install_from_github"
     },
     {
       "name": "firecrawl-build",
-      "source_url": "https://github.com/heisetiantang/codex-skills-RE/tree/main/skills/03-info-retrieval/firecrawl-build",
+      "source_url": "https://github.com/heisetiantang/codex-skills-RE/tree/main/skills/03-外部信息获取/firecrawl-build",
       "repository": "heisetiantang/codex-skills-RE",
-      "repository_path": "skills/03-info-retrieval/firecrawl-build",
+      "repository_path": "skills/03-外部信息获取/firecrawl-build",
       "migration": "install_from_github"
     },
     {
       "name": "firecrawl-build-scrape",
-      "source_url": "https://github.com/heisetiantang/codex-skills-RE/tree/main/skills/03-info-retrieval/firecrawl-build-scrape",
+      "source_url": "https://github.com/heisetiantang/codex-skills-RE/tree/main/skills/03-外部信息获取/firecrawl-build-scrape",
       "repository": "heisetiantang/codex-skills-RE",
-      "repository_path": "skills/03-info-retrieval/firecrawl-build-scrape",
+      "repository_path": "skills/03-外部信息获取/firecrawl-build-scrape",
       "migration": "install_from_github"
     },
     {
       "name": "firecrawl-build-search",
-      "source_url": "https://github.com/heisetiantang/codex-skills-RE/tree/main/skills/03-info-retrieval/firecrawl-build-search",
+      "source_url": "https://github.com/heisetiantang/codex-skills-RE/tree/main/skills/03-外部信息获取/firecrawl-build-search",
       "repository": "heisetiantang/codex-skills-RE",
-      "repository_path": "skills/03-info-retrieval/firecrawl-build-search",
+      "repository_path": "skills/03-外部信息获取/firecrawl-build-search",
       "migration": "install_from_github"
     },
     {
       "name": "implement",
-      "source_url": "https://github.com/heisetiantang/codex-skills-RE/tree/main/skills/01-code-production/implement",
+      "source_url": "https://github.com/heisetiantang/codex-skills-RE/tree/main/skills/01-代码生产/implement",
       "repository": "heisetiantang/codex-skills-RE",
-      "repository_path": "skills/01-code-production/implement",
+      "repository_path": "skills/01-代码生产/implement",
       "migration": "install_from_github"
     },
     {
       "name": "learn-anything-fast",
-      "source_url": "https://github.com/heisetiantang/codex-skills-RE/tree/main/skills/辅助学习/learn-anything-fast",
+      "source_url": "https://github.com/heisetiantang/codex-skills-RE/tree/main/skills/05-辅助学习/learn-anything-fast",
       "repository": "heisetiantang/codex-skills-RE",
-      "repository_path": "skills/辅助学习/learn-anything-fast",
+      "repository_path": "skills/05-辅助学习/learn-anything-fast",
       "migration": "install_from_github"
     },
     {
       "name": "semgrep",
-      "source_url": "https://github.com/heisetiantang/codex-skills-RE/tree/main/skills/02-code-inspection/semgrep",
+      "source_url": "https://github.com/heisetiantang/codex-skills-RE/tree/main/skills/02-代码检验/semgrep",
       "repository": "heisetiantang/codex-skills-RE",
-      "repository_path": "skills/02-code-inspection/semgrep",
+      "repository_path": "skills/02-代码检验/semgrep",
       "migration": "install_from_github"
     },
     {
       "name": "solidworks-automation",
-      "source_url": "https://github.com/heisetiantang/codex-skills-RE/tree/main/skills/04-engineering-automation/solidworks-automation",
+      "source_url": "https://github.com/heisetiantang/codex-skills-RE/tree/main/skills/04-工程软件自动化/solidworks-automation",
       "repository": "heisetiantang/codex-skills-RE",
-      "repository_path": "skills/04-engineering-automation/solidworks-automation",
+      "repository_path": "skills/04-工程软件自动化/solidworks-automation",
       "migration": "install_from_github"
     },
     {
       "name": "tdd",
-      "source_url": "https://github.com/heisetiantang/codex-skills-RE/tree/main/skills/01-code-production/tdd",
+      "source_url": "https://github.com/heisetiantang/codex-skills-RE/tree/main/skills/01-代码生产/tdd",
       "repository": "heisetiantang/codex-skills-RE",
-      "repository_path": "skills/01-code-production/tdd",
+      "repository_path": "skills/01-代码生产/tdd",
       "migration": "install_from_github"
     }
   ],

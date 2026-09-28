@@ -8,24 +8,24 @@
 
 ```
 skills/
-├── 01-code-production/          需求 / spec → 可运行代码
+├── 01-代码生产/                需求 / spec → 可运行代码
 │   ├── implement/
 │   └── tdd/
-├── 02-code-inspection/          已有代码 → 问题清单
+├── 02-代码检验/                已有代码 → 问题清单
 │   ├── code-review/
 │   ├── codeql/
 │   ├── diagnosing-bugs/
 │   └── semgrep/
-├── 03-info-retrieval/           库名 / 网址 → 文档、数据、集成代码
+├── 03-外部信息获取/            库名 / 网址 → 文档、数据、集成代码
 │   ├── context7-mcp/
 │   ├── firecrawl-build/
 │   ├── firecrawl-build-scrape/
 │   └── firecrawl-build-search/
-├── 04-engineering-automation/   参数 → 零件 / 装配 / 图纸文件
+├── 04-工程软件自动化/          参数 → 零件 / 装配 / 图纸文件
 │   └── solidworks-automation/
-├── 辅助学习/                    目标 / 困惑 → 结构化方案
+├── 05-辅助学习/                目标 / 困惑 → 结构化方案
 │   └── learn-anything-fast/
-└── 情感部分/                    情感 / 关系类，不参与安装
+└── 06-情感部分/                情感 / 关系类，不参与安装
     ├── goutoujunshi/
     └── jev-chat-jarvis/
 ```
@@ -50,7 +50,7 @@ powershell.exe -NoProfile -ExecutionPolicy Bypass -File ".\install.ps1"
 
 ```powershell
 $installer = "$env:USERPROFILE\.codex\skills\.system\skill-installer\scripts\install-skill-from-github.py"
-python $installer --repo heisetiantang/codex-skills-RE --path skills/03-info-retrieval/context7-mcp
+python $installer --repo heisetiantang/codex-skills-RE --path skills/03-外部信息获取/context7-mcp
 ```
 
 ## 技能清单
@@ -65,7 +65,7 @@ python $installer --repo heisetiantang/codex-skills-RE --path skills/03-info-ret
 
 在 Codex 中可直接使用 `/技能名` 显式调用；也可以在任务中描述相同意图，让 Codex 自动匹配。少数技能（如 `implement`）声明了 `disable-model-invocation`，只能显式调用。下表是全量明细（按名称字母序），按**功能**分类的一页版见 [`技能速查.md`](技能速查.md)。
 
-「功能域」列（括号内为所在分类目录）：① 代码生产 `01-code-production`　② 代码检验 `02-code-inspection`　③ 外部信息获取 `03-info-retrieval`　④ 工程软件自动化 `04-engineering-automation`　⑤ 辅助学习 `辅助学习`
+「功能域」列（括号内为所在分类目录）：① 代码生产 `01-代码生产`　② 代码检验 `02-代码检验`　③ 外部信息获取 `03-外部信息获取`　④ 工程软件自动化 `04-工程软件自动化`　⑤ 辅助学习 `05-辅助学习`
 
 | 功能域 | Skill | 用途 | 调用示例 |
 | --- | --- | --- | --- |
