@@ -8,7 +8,7 @@
     { "dir": "02-code-inspection",        "label": "代码检验",       "io": "已有代码 → 问题清单" },
     { "dir": "03-info-retrieval",         "label": "外部信息获取",   "io": "库名 / 网址 → 文档、数据、集成代码" },
     { "dir": "04-engineering-automation", "label": "工程软件自动化", "io": "参数 → 零件 / 装配 / 图纸文件" },
-    { "dir": "05-non-engineering",        "label": "非工程",         "io": "目标 / 困惑 → 结构化方案" },
+    { "dir": "辅助学习",                  "label": "辅助学习",       "io": "目标 / 困惑 → 结构化方案" },
     { "dir": "情感部分",                   "label": "情感",           "io": "情感 / 关系类，不参与安装，待组合优化" }
   ],
   "skills": [
@@ -23,7 +23,7 @@
     { "name": "firecrawl-build-scrape", "path": "skills/03-info-retrieval/firecrawl-build-scrape", "category": "03-info-retrieval", "origin": "firecrawl/firecrawl" },
     { "name": "firecrawl-build-search", "path": "skills/03-info-retrieval/firecrawl-build-search", "category": "03-info-retrieval", "origin": "firecrawl/firecrawl" },
     { "name": "solidworks-automation", "path": "skills/04-engineering-automation/solidworks-automation", "category": "04-engineering-automation", "origin": "local" },
-    { "name": "learn-anything-fast", "path": "skills/05-non-engineering/learn-anything-fast", "category": "05-non-engineering", "origin": "zgl610329-wq/learn-anything-fast" }
+    { "name": "learn-anything-fast", "path": "skills/辅助学习/learn-anything-fast", "category": "辅助学习", "origin": "zgl610329-wq/learn-anything-fast" }
   ],
   "unlisted": [
     { "name": "goutoujunshi", "path": "skills/情感部分/goutoujunshi", "reason": "有 SKILL.md，归入情感部分；待组合优化后再决定是否进安装清单" },

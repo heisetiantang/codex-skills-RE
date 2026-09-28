@@ -72,9 +72,9 @@
     },
     {
       "name": "learn-anything-fast",
-      "source_url": "https://github.com/heisetiantang/codex-skills-RE/tree/main/skills/05-non-engineering/learn-anything-fast",
+      "source_url": "https://github.com/heisetiantang/codex-skills-RE/tree/main/skills/辅助学习/learn-anything-fast",
       "repository": "heisetiantang/codex-skills-RE",
-      "repository_path": "skills/05-non-engineering/learn-anything-fast",
+      "repository_path": "skills/辅助学习/learn-anything-fast",
       "migration": "install_from_github"
     },
     {
