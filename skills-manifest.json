@@ -1,19 +1,32 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "repository": "heisetiantang/codex-skills-RE",
   "skills_root": "skills",
+  "layout": "按功能分组：skills/<分类目录>/<技能名>",
+  "taxonomy": [
+    { "dir": "01-code-production",        "label": "代码生产",       "io": "需求 / spec → 可运行代码" },
+    { "dir": "02-code-inspection",        "label": "代码检验",       "io": "已有代码 → 问题清单" },
+    { "dir": "03-info-retrieval",         "label": "外部信息获取",   "io": "库名 / 网址 → 文档、数据、集成代码" },
+    { "dir": "04-engineering-automation", "label": "工程软件自动化", "io": "参数 → 零件 / 装配 / 图纸文件" },
+    { "dir": "05-non-engineering",        "label": "非工程",         "io": "目标 / 困惑 → 结构化方案" },
+    { "dir": "99-inbox",                  "label": "未归档",         "io": "待定去留，不参与安装" }
+  ],
   "skills": [
-    { "name": "code-review", "path": "skills/code-review", "origin": "mattpocock/skills" },
-    { "name": "codeql", "path": "skills/codeql", "origin": "trailofbits/skills" },
-    { "name": "context7-mcp", "path": "skills/context7-mcp", "origin": "upstash/context7" },
-    { "name": "diagnosing-bugs", "path": "skills/diagnosing-bugs", "origin": "mattpocock/skills" },
-    { "name": "firecrawl-build", "path": "skills/firecrawl-build", "origin": "firecrawl/firecrawl" },
-    { "name": "firecrawl-build-scrape", "path": "skills/firecrawl-build-scrape", "origin": "firecrawl/firecrawl" },
-    { "name": "firecrawl-build-search", "path": "skills/firecrawl-build-search", "origin": "firecrawl/firecrawl" },
-    { "name": "implement", "path": "skills/implement", "origin": "mattpocock/skills" },
-    { "name": "learn-anything-fast", "path": "skills/learn-anything-fast", "origin": "zgl610329-wq/learn-anything-fast" },
-    { "name": "semgrep", "path": "skills/semgrep", "origin": "trailofbits/skills" },
-    { "name": "solidworks-automation", "path": "skills/solidworks-automation", "origin": "local" },
-    { "name": "tdd", "path": "skills/tdd", "origin": "mattpocock/skills" }
+    { "name": "implement", "path": "skills/01-code-production/implement", "category": "01-code-production", "origin": "mattpocock/skills" },
+    { "name": "tdd", "path": "skills/01-code-production/tdd", "category": "01-code-production", "origin": "mattpocock/skills" },
+    { "name": "code-review", "path": "skills/02-code-inspection/code-review", "category": "02-code-inspection", "origin": "mattpocock/skills" },
+    { "name": "codeql", "path": "skills/02-code-inspection/codeql", "category": "02-code-inspection", "origin": "trailofbits/skills" },
+    { "name": "diagnosing-bugs", "path": "skills/02-code-inspection/diagnosing-bugs", "category": "02-code-inspection", "origin": "mattpocock/skills" },
+    { "name": "semgrep", "path": "skills/02-code-inspection/semgrep", "category": "02-code-inspection", "origin": "trailofbits/skills" },
+    { "name": "context7-mcp", "path": "skills/03-info-retrieval/context7-mcp", "category": "03-info-retrieval", "origin": "upstash/context7" },
+    { "name": "firecrawl-build", "path": "skills/03-info-retrieval/firecrawl-build", "category": "03-info-retrieval", "origin": "firecrawl/firecrawl" },
+    { "name": "firecrawl-build-scrape", "path": "skills/03-info-retrieval/firecrawl-build-scrape", "category": "03-info-retrieval", "origin": "firecrawl/firecrawl" },
+    { "name": "firecrawl-build-search", "path": "skills/03-info-retrieval/firecrawl-build-search", "category": "03-info-retrieval", "origin": "firecrawl/firecrawl" },
+    { "name": "solidworks-automation", "path": "skills/04-engineering-automation/solidworks-automation", "category": "04-engineering-automation", "origin": "local" },
+    { "name": "learn-anything-fast", "path": "skills/05-non-engineering/learn-anything-fast", "category": "05-non-engineering", "origin": "zgl610329-wq/learn-anything-fast" }
+  ],
+  "unlisted": [
+    { "name": "goutoujunshi", "path": "skills/99-inbox/goutoujunshi", "reason": "有 SKILL.md 但未列入安装清单，待决定去留" },
+    { "name": "jev-chat-jarvis", "path": "skills/99-inbox/jev-chat-jarvis", "reason": "不是技能：Android 应用源码，无 SKILL.md" }
   ]
 }
