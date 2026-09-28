@@ -9,7 +9,7 @@
     { "dir": "03-info-retrieval",         "label": "外部信息获取",   "io": "库名 / 网址 → 文档、数据、集成代码" },
     { "dir": "04-engineering-automation", "label": "工程软件自动化", "io": "参数 → 零件 / 装配 / 图纸文件" },
     { "dir": "05-non-engineering",        "label": "非工程",         "io": "目标 / 困惑 → 结构化方案" },
-    { "dir": "99-inbox",                  "label": "未归档",         "io": "待定去留，不参与安装" }
+    { "dir": "情感部分",                   "label": "情感",           "io": "情感 / 关系类，不参与安装，待组合优化" }
   ],
   "skills": [
     { "name": "implement", "path": "skills/01-code-production/implement", "category": "01-code-production", "origin": "mattpocock/skills" },
@@ -26,7 +26,7 @@
     { "name": "learn-anything-fast", "path": "skills/05-non-engineering/learn-anything-fast", "category": "05-non-engineering", "origin": "zgl610329-wq/learn-anything-fast" }
   ],
   "unlisted": [
-    { "name": "goutoujunshi", "path": "skills/99-inbox/goutoujunshi", "reason": "有 SKILL.md 但未列入安装清单，待决定去留" },
-    { "name": "jev-chat-jarvis", "path": "skills/99-inbox/jev-chat-jarvis", "reason": "不是技能：Android 应用源码，无 SKILL.md" }
+    { "name": "goutoujunshi", "path": "skills/情感部分/goutoujunshi", "reason": "有 SKILL.md，归入情感部分；待组合优化后再决定是否进安装清单" },
+    { "name": "jev-chat-jarvis", "path": "skills/情感部分/jev-chat-jarvis", "reason": "不是技能：Android 应用源码，无 SKILL.md" }
   ]
 }

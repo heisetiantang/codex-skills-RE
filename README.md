@@ -25,12 +25,12 @@ skills/
 │   └── solidworks-automation/
 ├── 05-non-engineering/          目标 / 困惑 → 结构化方案
 │   └── learn-anything-fast/
-└── 99-inbox/                    待定去留，不参与安装
+└── 情感部分/                    情感 / 关系类，不参与安装
     ├── goutoujunshi/
     └── jev-chat-jarvis/
 ```
 
-分类目录只是容器，本身不是技能。安装脚本只读 `skills-manifest.json` 里的 `path` 字段，**不扫描目录**，所以分组对安装没有影响；`99-inbox/` 不在清单的 `skills` 数组里，不会被安装。
+分类目录只是容器，本身不是技能。安装脚本只读 `skills-manifest.json` 里的 `path` 字段，**不扫描目录**，所以分组对安装没有影响；`情感部分/` 不在清单的 `skills` 数组里，不会被安装。
 
 系统自带技能和插件缓存已排除。
 
@@ -55,7 +55,7 @@ python $installer --repo heisetiantang/codex-skills-RE --path skills/03-info-ret
 
 ## 技能清单
 
-`skills-manifest.json` 是标准技能清单（v3 起带 `taxonomy` 分类表、每个技能带 `category` 字段，并用 `unlisted` 数组记录未归档目录）；`THIRD_PARTY_SOURCES.md` 记录了上游来源和许可证说明。
+`skills-manifest.json` 是标准技能清单（v3 起带 `taxonomy` 分类表、每个技能带 `category` 字段，并用 `unlisted` 数组记录未入清单目录）；`THIRD_PARTY_SOURCES.md` 记录了上游来源和许可证说明。
 
 **不知道某个技能是干什么的、什么时候该用？先看 [`技能速查.md`](技能速查.md)** —— 第一节按**功能**（输入 → 输出）分成代码生产 / 代码检验 / 外部信息获取 / 工程软件自动化 / 非工程，第四节另有按场景反查的组合表，并标注了每个技能的依赖前提和自动触发条件。
 
