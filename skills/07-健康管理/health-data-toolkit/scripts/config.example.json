@@ -1,0 +1,14 @@
+{
+  "data_dir": "./data",
+  "profile": {
+    "height_cm": 166,
+    "start_weight": 82.7,
+    "start_date": "2026-08-10",
+    "phase2_target": 77.0,
+    "phase2_deadline": "2026-09-24",
+    "phase2_start": 79.65,
+    "protein_floor": 90,
+    "daily_budget": [1400, 1500],
+    "tdee": [2400, 2500]
+  }
+}

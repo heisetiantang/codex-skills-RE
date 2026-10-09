@@ -64,6 +64,20 @@
       "migration": "install_from_github"
     },
     {
+      "name": "grill-me",
+      "source_url": "https://github.com/heisetiantang/codex-skills-RE/tree/main/skills/01-代码生产/grill-me",
+      "repository": "heisetiantang/codex-skills-RE",
+      "repository_path": "skills/01-代码生产/grill-me",
+      "migration": "install_from_github"
+    },
+    {
+      "name": "grilling",
+      "source_url": "https://github.com/heisetiantang/codex-skills-RE/tree/main/skills/01-代码生产/grilling",
+      "repository": "heisetiantang/codex-skills-RE",
+      "repository_path": "skills/01-代码生产/grilling",
+      "migration": "install_from_github"
+    },
+    {
       "name": "implement",
       "source_url": "https://github.com/heisetiantang/codex-skills-RE/tree/main/skills/01-代码生产/implement",
       "repository": "heisetiantang/codex-skills-RE",

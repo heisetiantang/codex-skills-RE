@@ -9,9 +9,13 @@
     { "dir": "03-外部信息获取",         "label": "外部信息获取",   "io": "库名 / 网址 → 文档、数据、集成代码" },
     { "dir": "04-工程软件自动化", "label": "工程软件自动化", "io": "参数 → 零件 / 装配 / 图纸文件" },
     { "dir": "05-辅助学习",                  "label": "辅助学习",       "io": "目标 / 困惑 → 结构化方案" },
-    { "dir": "06-情感部分",                   "label": "情感",           "io": "情感 / 关系类，不参与安装，待组合优化" }
+    { "dir": "06-情感部分",                   "label": "情感",           "io": "情感 / 关系类，不参与安装，待组合优化" },
+    { "dir": "07-健康管理",                   "label": "健康管理",       "io": "饮食 / 体重 / 身体数据 → 营养核算、达标判断与配餐方案" },
+    { "dir": "08-消息协作",                   "label": "消息协作",       "io": "文本 → 微信等 IM 消息" }
   ],
   "skills": [
+    { "name": "grill-me", "path": "skills/01-代码生产/grill-me", "category": "01-代码生产", "origin": "mattpocock/skills" },
+    { "name": "grilling", "path": "skills/01-代码生产/grilling", "category": "01-代码生产", "origin": "mattpocock/skills" },
     { "name": "implement", "path": "skills/01-代码生产/implement", "category": "01-代码生产", "origin": "mattpocock/skills" },
     { "name": "tdd", "path": "skills/01-代码生产/tdd", "category": "01-代码生产", "origin": "mattpocock/skills" },
     { "name": "code-review", "path": "skills/02-代码检验/code-review", "category": "02-代码检验", "origin": "mattpocock/skills" },
@@ -23,7 +27,11 @@
     { "name": "firecrawl-build-scrape", "path": "skills/03-外部信息获取/firecrawl-build-scrape", "category": "03-外部信息获取", "origin": "firecrawl/firecrawl" },
     { "name": "firecrawl-build-search", "path": "skills/03-外部信息获取/firecrawl-build-search", "category": "03-外部信息获取", "origin": "firecrawl/firecrawl" },
     { "name": "solidworks-automation", "path": "skills/04-工程软件自动化/solidworks-automation", "category": "04-工程软件自动化", "origin": "local" },
-    { "name": "learn-anything-fast", "path": "skills/05-辅助学习/learn-anything-fast", "category": "05-辅助学习", "origin": "zgl610329-wq/learn-anything-fast" }
+    { "name": "learn-anything-fast", "path": "skills/05-辅助学习/learn-anything-fast", "category": "05-辅助学习", "origin": "zgl610329-wq/learn-anything-fast" },
+    { "name": "diet-tracker", "path": "skills/07-健康管理/diet-tracker", "category": "07-健康管理", "origin": "workbuddy-marketplace" },
+    { "name": "health-data-toolkit", "path": "skills/07-健康管理/health-data-toolkit", "category": "07-健康管理", "origin": "workbuddy-marketplace" },
+    { "name": "meal-plan", "path": "skills/07-健康管理/meal-plan", "category": "07-健康管理", "origin": "workbuddy-marketplace" },
+    { "name": "wechat-send", "path": "skills/08-消息协作/wechat-send", "category": "08-消息协作", "origin": "workbuddy-marketplace" }
   ],
   "unlisted": [
     { "name": "goutoujunshi", "path": "skills/06-情感部分/goutoujunshi", "reason": "有 SKILL.md，归入情感部分；待组合优化后再决定是否进安装清单" },

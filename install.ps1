@@ -1,28 +1,18 @@
-$ErrorActionPreference = "Stop"
+﻿<#
+    install.ps1 - 兼容入口，真正的实现在 sync.ps1
 
-$repositoryRoot = Split-Path -Parent $MyInvocation.MyCommand.Path
-$manifestPath = Join-Path $repositoryRoot "skills-manifest.json"
-$destinationRoot = Join-Path $env:USERPROFILE ".codex\skills"
-$manifest = Get-Content -LiteralPath $manifestPath -Raw -Encoding UTF8 | ConvertFrom-Json
+    为什么换掉旧逻辑
+      旧版是「目标已存在就 SKIP」，装过一次的技能永远不会更新 —— 这与
+      「本机定制 → 上传 → 其他电脑生效」的目标直接冲突。
+      现在统一走 sync.ps1 的幂等镜像：让镜像始终等于仓库。
 
-New-Item -ItemType Directory -Force -Path $destinationRoot | Out-Null
+    用法（参数原样转发给 sync.ps1）
+      powershell.exe -NoProfile -ExecutionPolicy Bypass -File ".\install.ps1"
+      powershell.exe -NoProfile -ExecutionPolicy Bypass -File ".\install.ps1" -Check
 
-foreach ($skill in $manifest.skills) {
-    $source = Join-Path $repositoryRoot $skill.path
-    $destination = Join-Path $destinationRoot $skill.name
+      可转发：-Mode link|copy  -Targets codex,workbuddy  -Check  -Prune  -Log 报告路径
 
-    if (-not (Test-Path -LiteralPath (Join-Path $source "SKILL.md"))) {
-        throw "Invalid skill directory: $source"
-    }
-
-    if (Test-Path -LiteralPath $destination) {
-        Write-Host "SKIP  $($skill.name) (already exists)"
-        continue
-    }
-
-    Copy-Item -LiteralPath $source -Destination $destination -Recurse
-    Write-Host "OK    $($skill.name)"
-}
-
-Write-Host ""
-Write-Host "Installation complete. Restart Codex to load the new skills."
+    动手前先体检，它会告诉你哪些镜像与仓库不一致：
+      .\sync.ps1 -Check
+#>
+& (Join-Path $PSScriptRoot 'sync.ps1') @args
